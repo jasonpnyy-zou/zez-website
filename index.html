@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEZ Biotech</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header class="container">
+      <nav>
+        <a href="index.html" data-i18n="nav_home"></a>
+        <a href="about.html" data-i18n="nav_about"></a>
+        <a href="ingredients.html" data-i18n="nav_ingredients"></a>
+        <a href="oem.html" data-i18n="nav_oem"></a>
+        <a href="solutions.html" data-i18n="nav_solutions"></a>
+        <a href="contact.html" data-i18n="nav_contact"></a>
+      </nav>
+
+      <div>
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('zh')">中文</button>
+        <button onclick="setLanguage('ja')">日本語</button>
+      </div>
+    </header>
+
+    <section class="hero container">
+      <h1 data-i18n="hero_home_title"></h1>
+      <p data-i18n="hero_home_desc"></p>
+      <img src="https://images.unsplash.com/photo-1581091012184-5c1d3c1b1f9b" alt="Biotech hero image">
+    </section>
+
+    <section class="section container">
+      <h2>What We Do</h2>
+
+      <div class="grid">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b" alt="Ingredient solutions">
+          <h3>Ingredients</h3>
+          <p>High-purity plant peptide ingredients.</p>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1581092334428-9c4f0f8f1f64" alt="OEM manufacturing">
+          <h3>OEM</h3>
+          <p>Flexible production through certified partners.</p>
+        </div>
+
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1556740749-887f6717d7e4" alt="Product solutions">
+          <h3>Solutions</h3>
+          <p>Market-ready product concepts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2 data-i18n="cta_start"></h2>
+      <a href="contact.html" class="btn" data-i18n="cta_contact"></a>
+    </section>
+
+    <script src="i18n.js"></script>
+  </body>
+</html>
