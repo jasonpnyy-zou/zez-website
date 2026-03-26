@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | ZEZ</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header class="container">
+      <nav>
+        <a href="index.html" data-i18n="nav_home"></a>
+        <a href="about.html" data-i18n="nav_about"></a>
+        <a href="ingredients.html" data-i18n="nav_ingredients"></a>
+        <a href="oem.html" data-i18n="nav_oem"></a>
+        <a href="solutions.html" data-i18n="nav_solutions"></a>
+        <a href="contact.html" data-i18n="nav_contact"></a>
+      </nav>
+
+      <div>
+        <button onclick="setLanguage('en')">EN</button>
+        <button onclick="setLanguage('zh')">中文</button>
+        <button onclick="setLanguage('ja')">日本語</button>
+      </div>
+    </header>
+
+    <section class="hero container">
+      <h1 data-i18n="hero_contact_title"></h1>
+    </section>
+
+    <section class="section container">
+      <form>
+        <input type="text" placeholder="Name / Company">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Your request"></textarea>
+        <button data-i18n="cta_contact"></button>
+      </form>
+    </section>
+
+    <script src="i18n.js"></script>
+  </body>
+</html>
