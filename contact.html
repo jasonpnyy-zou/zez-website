@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | ZEZ Biotech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=DM+Serif+Display&family=Noto+Sans+SC:wght@400;500;700;800&family=Noto+Sans+JP:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span style="display:inline-flex;align-items:center;min-height:74px;color:var(--primary);font-size:28px;font-weight:800;letter-spacing:0.06em;text-transform:uppercase;">ZEZ Biotech</span></a>
+      <div class="nav-tools">
+        <nav class="nav-links">
+          <a href="index.html"><span class="i18n compact"><span class="lang zh">首页</span><span class="lang en">Home</span><span class="lang ja">ホーム</span></span></a>
+          <a href="about.html"><span class="i18n compact"><span class="lang zh">关于我们</span><span class="lang en">About</span><span class="lang ja">会社概要</span></span></a>
+          <a href="ingredients.html"><span class="i18n compact"><span class="lang zh">原料</span><span class="lang en">Ingredients</span><span class="lang ja">原料</span></span></a>
+          <a href="oem.html"><span class="i18n compact"><span class="lang zh">代工服务</span><span class="lang en">OEM</span><span class="lang ja">OEM</span></span></a>
+          <a href="solutions.html"><span class="i18n compact"><span class="lang zh">产品方案</span><span class="lang en">Solutions</span><span class="lang ja">製品ソリューション</span></span></a>
+          <a href="contact.html"><span class="i18n compact"><span class="lang zh">联系我们</span><span class="lang en">Contact</span><span class="lang ja">お問い合わせ</span></span></a>
+          <details class="lang-nav" data-lang-menu>
+            <summary class="i18n compact"><span class="lang zh">语言</span><span class="lang en">Language</span><span class="lang ja">言語</span></summary>
+            <div class="lang-nav-panel">
+              <button type="button" data-lang-button="en">English</button>
+              <button type="button" data-lang-button="zh">中文</button>
+              <button type="button" data-lang-button="ja">日本語</button>
+            </div>
+          </details>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow i18n compact"><span class="lang zh">联系我们</span><span class="lang en">Contact</span><span class="lang ja">お問い合わせ</span></span>
+        <h1 class="i18n"><span class="lang zh">与 ZEZ 启动项目沟通</span><span class="lang en">Start your project discussion with ZEZ</span><span class="lang ja">ZEZ と案件相談を始める</span></h1>
+        <p class="i18n"><span class="lang zh">无论你正在寻找植物多肽原料、OEM 合作伙伴，还是希望推进品牌产品项目，ZEZ 都可以根据项目阶段提供更清晰的下一步建议。</span><span class="lang en">Whether you are sourcing plant peptide ingredients, looking for an OEM partner, or advancing a branded product project, ZEZ can help define the next practical step for your business.</span><span class="lang ja">植物ペプチド原料の調達、OEM 協業先の検討、ブランド製品案件の推進など、案件段階に応じて次の実務ステップをご提案できます。</span></p>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="container contact-box">
+        <article class="content-block content-block-plain">
+          <h2 class="i18n"><span class="lang zh">建议先提供的信息</span><span class="lang en">What to tell us first</span><span class="lang ja">最初に共有いただきたい内容</span></h2>
+          <div class="feature-list">
+            <div class="feature i18n compact"><span class="lang zh">所需服务类型：原料、OEM 或产品方案</span><span class="lang en">Required service: ingredients, OEM, or product solutions</span><span class="lang ja">必要なサービス: 原料、OEM、製品提案</span></div>
+            <div class="feature i18n compact"><span class="lang zh">目标市场：日本、东南亚或其他国际区域</span><span class="lang en">Target market: Japan, Southeast Asia, or another international region</span><span class="lang ja">対象市場: 日本、東南アジア、その他海外地域</span></div>
+            <div class="feature i18n compact"><span class="lang zh">产品形式与品牌定位</span><span class="lang en">Product format and brand positioning</span><span class="lang ja">商品形態とブランド方向</span></div>
+            <div class="feature i18n compact"><span class="lang zh">样品、文件包或包装协同需求</span><span class="lang en">Need for samples, documentation, or packaging coordination</span><span class="lang ja">サンプル、資料、包装連携の要否</span></div>
+          </div>
+        </article>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Preview only. The real form will be connected later.');">
+          <input type="text" data-ph-zh="公司名称" data-ph-en="Company" data-ph-ja="会社名" placeholder="Company">
+          <input type="email" data-ph-zh="邮箱" data-ph-en="Email" data-ph-ja="メールアドレス" placeholder="Email">
+          <textarea data-ph-zh="请描述产品形式、目标市场、所需服务类型，以及你希望 ZEZ 提供的支持内容" data-ph-en="Describe the product format, target market, required service type, and the support you would like from ZEZ" data-ph-ja="商品形態、対象市場、必要なサービス内容、そして ZEZ に希望する支援内容をご記入ください" placeholder="Describe the product format, target market, required service type, and the support you would like from ZEZ"></textarea>
+          <button class="btn btn-primary" type="submit"><span class="i18n compact"><span class="lang zh">提交需求</span><span class="lang en">Submit Inquiry</span><span class="lang ja">送信する</span></span></button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container">ZEZ Biotech © 2026.</div></footer>
+  <a class="whatsapp" href="https://wa.me/6598537298" target="_blank" rel="noreferrer">WhatsApp</a>
+  <script src="i18n.js"></script>
+</body>
+</html>
